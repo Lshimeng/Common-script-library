@@ -2,7 +2,7 @@ import pandas as pd
 import os
 
 #文件路径
-file_dir = r'C:/Users/Liush/Desktop/TJTG/12/kaks'
+file_dir = r'C:/Users/'
 #构建新的表格名称
 new_filename = file_dir + '/new_file.xls'
 #找到文件路径下的所有表格名称，返回列表
