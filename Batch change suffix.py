@@ -5,7 +5,7 @@
 import sys
 import os
 def Rename():
-  Path = r"c:\Users\Liush\Desktop\TJTG\12\model";
+  Path = r"c:\Users";#文件所在路径
   filelist = os.listdir(Path)
   for files in filelist:
     Olddir = os.path.join(Path,files)
