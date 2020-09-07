@@ -1,8 +1,8 @@
 import os
 def rename():
     count=1;
-    path=r"c:\Users\";
-    mark="am"
+    path=r"c:\Users\";#文件所在路径
+    mark="am"#编号前想加的字符
 
     filelist=os.listdir(path)#该文件夹下所有的文件（包括文件夹）
     for files in filelist:#遍历所有文件
